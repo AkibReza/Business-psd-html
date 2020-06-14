@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+header {
+  background-color: #9b9a95;
+  height: 890px;
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+  ul {
+    padding-right: 52px;
+  }
+  .nav-item {
+    padding-left: 16px;
+  }
+
+  h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 26px;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .btn-success {
+    background-color: #4ecb8c;
+    width: 14rem;
+  }
+}
+
+section.features {
+  height: 500px;
+  .container {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  h1 {
+    margin-top: 100px;
+    font-size: 46px;
+    letter-spacing: -1px;
+    margin-bottom: 103px;
+  }
+
+  img {
+    margin-top: -50px;
+  }
+  h5 {
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+  }
+  p {
+    text-align: center;
+  }
+  .card-resizer {
+    width: 330px;
+  }
+  .card-body {
+    padding-bottom: 5px !important;
+  }
+}
+
+section.story {
+  height: 660px;
+  background-color: #e9ebea;
+  padding-top: 120px;
+  padding-bottom: 100px;
+
+  h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 44px;
+  }
+  .sizer {
+    padding-right: 10px !important;
+  }
+}
+
+section.testimonials {
+  height: 990px;
+}

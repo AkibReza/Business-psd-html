@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Poiret+One&family=Raleway:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.spacing {
+  margin-bottom: 2.4rem;
+  &-2 {
+    margin-bottom: 3.5rem;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #9b9a95;
+  height: 89rem;
+
+  span {
+    color: #f2f2f1;
+    font-weight: normal;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    font-family: "Poiret One", cursive !important;
+  }
+  ul {
+    padding-right: 5.2rem;
+  }
+  .nav-item {
+    padding-left: 1.6rem;
+  }
+
+  h1 {
+    margin-top: 17rem;
+    color: white;
+    font-size: 5.5rem;
+    margin-bottom: 2.6rem;
+  }
+  p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+  }
+  .btn-success {
+    margin-top: 0.5rem;
+    background-color: #4ecb8c;
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      font-size: 1.6rem;
+      color: rgba(255, 255, 255, 1);
+      padding-right: 0.7rem !important;
+      padding-left: 1rem !important;
+      padding-top: 1rem;
+    }
+  }
+}
+
+section.features {
+  height: 50rem;
+  .container {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+  }
+  h1 {
+    margin-top: 10rem;
+    font-size: 4.6rem;
+    letter-spacing: -1px;
+    margin-bottom: 11rem;
+  }
+
+  img {
+    margin-top: -5rem;
+    margin-bottom: 1.6rem;
+  }
+  h5 {
+    letter-spacing: -1px;
+    margin-bottom: 1.4rem;
+    font-size: 2rem;
+  }
+  p {
+    text-align: center;
+    font-size: 1.65rem;
+  }
+  .card-resizer {
+    width: 33rem;
+  }
+  .card-body {
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+section.story {
+  height: 66rem;
+  background-color: #e9ebea;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+
+  h1 {
+    font-size: 4.8rem;
+    letter-spacing: -2px;
+    margin-bottom: 4.4rem;
+  }
+  .sizer {
+    padding-right: 1rem !important;
+  }
+  .btn {
+    padding: 1.4rem 2.4rem;
+    font-size: 1.6rem;
+  }
+}
+
+section.testimonials {
+  height: 99rem;
+
+  h1 {
+    margin-top: 14rem;
+    margin-bottom: 7rem;
+    font-size: 4.8rem;
+    letter-spacing: -1px;
+  }
+  .textbox {
+    border: 1px solid #dedede;
+    p {
+      line-height: 2.8rem;
+      font-size: 1.95rem;
+    }
+    &-a {
+      padding: 2rem 4rem 1.8rem 3rem;
+      margin: 0rem 0rem 1.9rem 3rem;
+    }
+    &-b {
+      padding: 2.4rem 3rem 2rem 3rem;
+      margin: 1.5rem 0rem 0rem 3rem;
+    }
+    &-c {
+      padding: 2rem 4rem 2rem 3rem;
+      margin: 0rem 3rem 0rem 0rem;
+    }
+    &-d {
+      padding: 2.2rem 3rem 2rem 3rem;
+      margin: 0rem 3.3rem 0rem 0rem;
+    }
+  }
+  .circle-img {
+    background-color: #989898;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  .name {
+    text-align: end;
+  }
+  .info {
+    padding-right: 3.5rem !important;
+  }
+  .info-resize {
+    margin-top: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .arrow {
+    right: 68px;
+    position: absolute;
+    display: block;
+    width: 1.6rem;
+    height: 0.3rem;
+    margin: 0.48rem;
+  }
+  .arrow::after,
+  .arrow::before {
+    position: absolute;
+    display: block;
+    content: "";
+    border-color: transparent;
+    border-style: solid;
+  }
+  .arrow::before {
+    bottom: 0;
+    border-top-color: #dedede;
+    border-width: 0.8rem 0.8rem 0 0.8rem;
+  }
+  .arrow::after {
+    bottom: 1px;
+    border-top-color: #fff;
+    border-width: 0.8rem 0.8rem 0 0.8rem;
+  }
+
+  .arrow-a-large {
+    @extend .arrow;
+    right: 55px;
+    margin: -1.36rem;
+  }
+  .arrow-a {
+    @extend .arrow;
+    right: 36px;
+    margin: 0.54rem;
+  }
+}
+
+section.skills {
+  height: 66rem;
+  background-color: #353535;
+  color: white;
+
+  .skillset {
+    margin: 0 5.9rem 0 -3rem;
+  }
+
+  .bg-progress {
+    background-color: #36c36e;
+  }
+
+  h1 {
+    font-size: 4.7rem;
+    margin-top: 11rem;
+    margin-bottom: 4.3rem;
+  }
+  .paragraphs {
+    padding-right: 6rem;
+  }
+  .button {
+    padding: 1.7rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    letter-spacing: 1px;
+  }
+  .progress-list {
+    margin-bottom: 2.7rem;
+    margin-top: 1rem;
+  }
+  .progress {
+    height: 1.5rem;
+  }
+}
+
+section.blog {
+  height: 68.4rem;
+
+  h1 {
+    font-size: 4.8rem;
+    text-align: center;
+    margin-top: 11.6rem;
+    margin-bottom: 7rem;
+    letter-spacing: -2px;
+  }
+  h2 {
+    letter-spacing: -1px;
+    margin-bottom: 1.7rem;
+    cursor: pointer;
+  }
+
+  .row {
+    margin: 0 1.8rem;
+  }
+  img {
+    margin-bottom: 2.4rem;
+    cursor: pointer;
+  }
+  i {
+    font-size: 1.6rem;
+  }
+  .inner-container {
+    padding-left: 1.4rem;
+    padding-right: 4rem;
+  }
+  p {
+    font-size: 1.45rem;
+  }
+  .paragraphs {
+    font-size: 1.57rem;
+  }
+}
+
+section.ready {
+  background-color: #36c36e;
+  height: 17.5rem;
+  color: white;
+
+  .container {
+    height: inherit;
+  }
+
+  .ready-items {
+    width: 105rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .btn-ready {
+    font-size: 1.6rem;
+    padding: 1.5rem 2.5rem;
+    &:hover {
+      color: black !important;
+      background-color: #36e57c;
+    }
+  }
+}
+
+footer {
+  background-color: #232323;
+  height: 23.5rem;
+  color: white;
+  h1 {
+    font-family: "Poiret One", cursive !important ;
+    font-size: 3.1rem;
+    padding-bottom: 3rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-row {
+    margin-left: 1rem;
+  }
+
+  span {
+    color: #7b7b7b;
+  }
+}
